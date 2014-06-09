@@ -5,7 +5,7 @@ from wtforms import form, fields, validators
 from flask.ext import admin, login
 from flask.ext.login import UserMixin
 from flask.ext.admin import helpers, expose
-from IPython import embed
+
 from homepi import app
 
 class User(UserMixin):
